@@ -45,8 +45,8 @@ function gen() {
         for(var x = gap / 4; x <= size; x+= gap) {
             dot = {x: x + (odd ? gap/2 : 0), y: y};
             line.push({
-                x: x + (Math.random()*.8 - .4) * gap  + (odd ? gap/2 : 0),
-                y: y + (Math.random()*.8 - .4) * gap
+                x: x + (Math.random()*.6 - .1) * gap  + (odd ? gap/8 : 0),
+                y: y + (Math.random()*.6 - .4) * gap
             });
             context.fill();
         }
