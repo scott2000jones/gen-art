@@ -16,6 +16,8 @@ canvas {
 body {
     background: #d8dee9;
     text-align:center;
+    color: #2e3440;
+    font-family: Hack, monospace;
 }
 
 .container {
@@ -27,4 +29,5 @@ button {
     color: #d8dee9;
     border-radius: 10px;
     border: none;
+    font-family: Hack, monospace;
 }
