@@ -26,7 +26,7 @@ function gen() {
     var context = canvas.getContext('2d');
 
     //var size = window.innerWidth;
-    var size = 768;
+    var size = 512;
     var dpr = window.devicePixelRatio;
 
     canvas.width = size * dpr;
