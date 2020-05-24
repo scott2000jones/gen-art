@@ -42,14 +42,14 @@ canvas {
   box-sizing: border-box;
 }
 
-/* body {
+.main {
     background: #d8dee9;
     text-align:center;
     color: #2e3440;
     font-family: Hack, monospace;
-} */
+}
 
-body {
+.art {
   background: #d8dee9;
   display: flex;
   height: 100vh;
